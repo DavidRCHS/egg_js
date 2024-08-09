@@ -4,7 +4,7 @@ let sumatoria = 0;
 
 
 for (let i = 1 ; i <= cantidad ; i++){
-  const numeroAsumar = Number(prompt('Ingrese número a sumar'))
+  const numeroAsumar = Number(prompt('N°'+ i +'Ingrese número a sumar '))
   sumatoria += numeroAsumar;
 }
 
